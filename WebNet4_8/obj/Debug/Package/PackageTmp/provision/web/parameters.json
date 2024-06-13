@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "514cd396-f281-41a1-b376-6d348b606151"
+        },
+        "resourceGroupName": {
+            "value": "rg-marat-musaev"
+        },
+        "name": {
+            "value": "iacasp"
+        },
+        "location": {
+            "value": "West US 2"
+        },
+        "hostingPlanName": {
+            "value": "iacaspnetplan"
+        },
+        "serverFarmResourceGroup": {
+            "value": "rg-marat-musaev"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "sku": {
+            "value": "Free"
+        },
+        "skuCode": {
+            "value": "F1"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "currentStack": {
+            "value": "dotnet"
+        },
+        "phpVersion": {
+            "value": "OFF"
+        },
+        "netFrameworkVersion": {
+            "value": "v4.0"
+        }
+    }
+}
